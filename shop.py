@@ -22,6 +22,6 @@ cart.add_item(shower_gel, 3)
 # Выводим детали корзины
 print(customer1.get_details())
 print(cart.get_details(admin))
-# print(cart2.get_customer_cart_details(customer1))
+print(cart2.get_details(customer1))
 
-#print(ShoppingCart.get_carts_details())
+print(ShoppingCart.get_carts_details())
